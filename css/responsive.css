@@ -1,0 +1,115 @@
+@media screen and (min-width: 481px){
+
+    .card-link-2{
+       width: 220px;
+    }
+
+    .card-link-2:hover{
+        width: 200px;
+    }
+
+    #container #links-2 strong{
+        left: 68%;
+        top: 2px;
+    }
+}
+
+@media screen and (min-width: 602px){
+
+    #container #links-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: auto;
+    }
+    .card-link-2:hover{
+        width: 200px;
+        position: relative;
+        left: 10px;
+    }
+
+    #container #nickname h1{
+        font-size: 36px;
+    }
+
+    #container #description h1{
+        font-size: 24px;
+    }
+
+    #container #nickname p, #container #description p, #container #email{
+        font-size: 18px;
+    }
+}
+    
+@media screen and (min-width: 737px){
+
+    #container #description p{
+        width: 90%;
+    }
+
+    #container #links-2{
+        display: flex;
+    }
+    .card-link-2:hover{
+        position: relative;
+        left: 0.01px;
+    }
+
+    #container section{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    #container section #responsive-div-1{
+        width: 47.5%;
+        position: relative;
+        left: 16px;
+    }
+
+    #container section #responsive-div-2{
+        width: 52.5%;
+    }
+
+    #container  #perfil-image img{
+        margin-top: 0;  
+    }
+}
+
+@media screen and (min-width: 981px){
+
+    #container{
+        max-width: 1200px;
+    }
+
+    #container  #perfil-image img{
+        width: 330px;  
+    }
+
+    .card-link-2{
+        width: 260px;
+        height: 30px;
+        padding-top: 10px;
+     }
+
+     .card-link-2:hover{
+        width: 240px;
+        padding-bottom: 6px;
+     }
+     
+    #container #nickname h1{
+        font-size: 40px;
+    }
+
+    #container #description h1{
+        font-size: 28px;
+    }
+
+    #container #nickname p, #container #description p, #container #email{
+        font-size: 20px;
+    }
+
+    #container #links-2 strong{
+        left: 72%;
+        top: 2px;
+    }
+}
